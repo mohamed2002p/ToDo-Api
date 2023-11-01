@@ -21,7 +21,7 @@ app.use(cors());
 app.use('/api', route);
 // root route
 //This is called mounting the router  =>  So mounting a new router (taskRouter) on a route ('/api/v1/tasks').
-app.use('/api/v1', tasks); //we created basically a sub application,
+app.use('/api/v1/tasks', tasks); //we created basically a sub application,
 
 
 app.all('*', (req, res, next) => {

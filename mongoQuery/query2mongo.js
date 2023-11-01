@@ -1,7 +1,3 @@
-/**
-* @Developed by @ArihantBhugari
-*/
-
 var model = require('../models/users');
 class mongoQuery {
 
